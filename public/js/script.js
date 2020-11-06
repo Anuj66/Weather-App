@@ -19,7 +19,9 @@ weatherForm.addEventListener('submit', (e) => {
                     + data.response.temperature + " degrees. It feels like "
                     + data.response.feels_like_temperature + " degrees. There is "
                     + data.response.precipitation + "% chance of rain. Weather is "
-                    + data.response.weather_description + " today."
+                    + data.response.weather_description + " today. Humidity is "
+                    + data.response.humidity + ". Cloud cover is "
+                    + data.response.cloudcover + "."
             }
         })
     })
